@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 300px;
+}
+
+.yellow {
+    background-color: rgb(174, 230, 18);
+}
+
+.green {
+    background-color: rgb(181, 226, 246);
+}
+.pink {
+    background-color: rgb(181, 226, 246);
+}   
+
+.white {
+    background-color: rgb(3, 84, 49);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.red {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: pink;
+}
+
+.name {
+    background-color: green;
+}
